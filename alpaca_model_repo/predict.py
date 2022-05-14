@@ -6,14 +6,14 @@ def load_model():
     model = predict_random_resull
     return model
 
-def run(model) -> list:
+def run(model) -> dict:
     # You should read image from data folder and return model prediction results
     # 0 represents non-alpaca
     # 1 represents alpaca
-    # The return needs to be a list of binaries
-    results = []
+    # The return needs to be a dictionary of binaries
+    results = {}
     for f in os.listdir("data"):
-        results.append(model(f))
+        results[f] = model(f)
     return results
 
 if __name__ == '__main__':
