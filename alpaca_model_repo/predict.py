@@ -1,9 +1,9 @@
 import os
-from model.model import predict_random_resull
+from model.model import predict_random_result
 
 def load_model():
     # TODO: replace the random model to your owns
-    model = predict_random_resull
+    model = predict_random_result
     return model
 
 def run(model) -> dict:

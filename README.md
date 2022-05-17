@@ -4,37 +4,43 @@
 
 # Aipaca Datathon Starter Code for CxC UW
 
-Hello students, welcome to Aipaca Datathon. In the datathon, you will build a alpaca binary classifier and deploy your model by Aibro inference tool.
+Hello students, welcome to CxC Summit's Aipaca Data Challenge. You will build an alpaca binary classifier and deploy your model with the Aibro inference tool.
 
-# Get Start
+# Getting Started
 
-## Step 1
+## Step 1: Get an account
 
-Join Aipaca's Discord community and register an Aipaca account at https://aipaca.ai
+Go to https://aipaca.ai and join Aipaca's [Discord community](https://discord.gg/bYB7EuXzWW). Then, register for an Aipaca account.
 
-## Step 2
+## Step 2: Download data
 
-Download alpaca training data from https://drive.google.com/drive/u/0/folders/1JlEHvLpuLWsio3rZZaok_2tjSlhXxBfG
+Download the alpaca training data from https://drive.google.com/drive/u/0/folders/1JlEHvLpuLWsio3rZZaok_2tjSlhXxBfG
 
-## Step 3
+## Step 3: Build a model
 
-Build and train your alpaca classifier with your favorate frameworks.
+Build and train your alpaca classifier with your chosen frameworks.
 
-## Step 4
+## Step 4: Deploy the template model
 
-Clone this repository and try to run `python turnon_deploy.py` with your own Aipaca account. The repository used a random classifier as the example.
+1. Clone this repository: `git clone git@github.com:aipaca-mlops/cxc_datathon.git`
+2. (Optional) Create a virtual environment by `python3 -m venv venv`, and activate it by `. venv/bin/activate`. If you are a Windows user, use `. venv/Script/activate`
+3. Install the newest version of aibro by `pip install aibro`.
+4. Run `python3 turnon_deploy.py`. You will be asked to input your Aipaca account's email & password. We recommend you to use [access token](https://doc.aipaca.ai/inference#authentication) instead.
+5. After step 4, you will receive an inference API URL. You can input the URL into `test_api.sh` then use `bash test_api.sh` to test your API.
 
-## Step 5
+## Step 5: Deploy your own model
 
-Modify `model.py` and `predict.py` by your own alpaca classifier and deploy it. Please make sure that your API return is a dictionary, where the key is the image file name and the value is the inference result. Please also feel free to add other artifacts if there is any need.
+Modify `model.py` and `predict.py` with respect to your own alpaca classifier. As long as `run(load_model())` from `predict.py` can return the prediction result, your model repository is ready to deploy. Please make sure that your API return is a dictionary, where the key is the image file name and the value is the inference result. Feel free to add other artifacts if there is a need.
+
+Before the final deployment, we recommend you to turn on `DRYRUN` in `turnon_deploy.py` to validate your model repository. Once `DRYRUN` test is passed, you can turn off `DRYRUN` and start the deployment.
 
 ## Tips
 
 - Remember to update `requirement.txt` if your model is built by extra libraries.
 - You can find more inference examples at [Aibro-examples](https://github.com/aipaca-mlops/Aibro-examples).
-- Colab inference demo and documentations are all available on https://aipaca.ai.
-- If you found any technical issues, feel free to contact Aipaca's **Admin** team in Aipaca's [Discord community](https://discord.gg/bYB7EuXzWW). If you are not a Discord user, you can also report to hello@aipaca.ai.
+- The Colab inference demo and documentation are all available on https://aipaca.ai.
+- If you found any technical issues, feel free to contact Aipaca's **Admin** team in Aipaca's [Discord community](https://discord.gg/bYB7EuXzWW). If you are not a Discord user, you can also send us an email to hello@aipaca.ai.
 
 # We need your feedback
 
-Share us your Aibro experience. We would like to hear how we can improve to serve you better in the future!
+Share your Aipaca experience with us. We would like to hear how we can improve to better serve you in the future!
