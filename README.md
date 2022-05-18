@@ -22,7 +22,7 @@ Build and train your alpaca classifier with your chosen frameworks.
 
 ## Step 4: Deploy the template model
 
-1. Clone this repository: `git clone git@github.com:aipaca-mlops/cxc_datathon.git`
+1. Clone this repository: `git clone https://github.com/aipaca-mlops/cxc_datathon.git`
 2. (Optional) Create a virtual environment by `python3 -m venv venv`, and activate it by `. venv/bin/activate`. If you are a Windows user, use `. venv/Script/activate`
 3. Install the newest version of aibro by `pip install aibro`.
 4. Run `python3 turnon_deploy.py`. You will be asked to input your Aipaca account's email & password. We recommend you to use [access token](https://doc.aipaca.ai/inference#authentication) instead.
