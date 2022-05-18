@@ -10,7 +10,7 @@ Hello students! Welcome to CxC Summit's Aipaca Data Challenge. You will build an
 
 ## Step 1: Get an account
 
-Go to https://aipaca.ai. Join Aipaca's [Discord community](https://discord.gg/bYB7EuXzWW) and register for an Aipaca account.
+Join Aipaca's [Discord community](https://discord.gg/bYB7EuXzWW) and register for an Aipaca account on https://aipaca.ai.
 
 ## Step 2: Download data
 
