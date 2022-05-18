@@ -2,9 +2,9 @@
   <img src="https://drive.google.com/uc?export=view&id=1znFGGhNTQMWz3NG4cn0YebsjlsdPr9BN">
 </div>
 
-# Aipaca Datathon Starter Code for CxC UW
+# Aipaca Datathon Starter Code for UW CxC Summit
 
-Hello students, welcome to CxC Summit's Aipaca Data Challenge. You will build an alpaca binary classifier and deploy your model with the Aibro inference tool.
+Hello students! Welcome to CxC Summit's Aipaca Data Challenge. You will build an alpaca binary classifier and deploy your model with the Aibro inference tool.
 
 # Getting Started
 
@@ -30,7 +30,7 @@ Go to [Inference Jobs Console](https://aipaca.ai/inference_jobs), copy your job 
 
 ## Step 5: Deploy your own model
 
-Now, you have known how to turn on & off an inference API by the template model. It's time to create your own APIs!
+You have known how to turn on & off an inference API by the template model. It's time to create your own APIs!
 
 Modify `model.py` and `predict.py` with respect to your own alpaca classifier. As long as `run(load_model())` from `predict.py` can return the prediction result, your model repository is ready to deploy. You can find more inference examples at [Aibro-examples](https://github.com/aipaca-mlops/Aibro-examples). For marking purpose, please make sure that your API return is a dictionary, where the key is the image file name and the value is the inference result. Feel free to add other artifacts if there is a need.
 
