@@ -6,6 +6,9 @@
 
 Hello students! Welcome to CxC Summit's Aipaca Data Challenge. You will build an alpaca binary classifier and deploy your model with the Aibro inference tool.
 
+# Supported Environment
+Python 3.7 and 3.8 are most recommended. Other python3 versions may cause unexpected errors. Don't use Python 3.10.
+
 # Getting Started
 
 ## Step 1: Get an account
