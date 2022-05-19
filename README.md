@@ -31,6 +31,8 @@ Download the alpaca training data from https://drive.google.com/drive/u/0/folder
 
 Go to [Inference Jobs Console](https://aipaca.ai/inference_jobs) and copy your job ID by clicking on it. Replace the ID in `turnoff_deploy.py` and run `python turnoff_deploy.py` to terminate your instance.
 
+Note that everything deployed should eventually be turned off to avoid extra costs.  
+
 ## Step 5: Deploy your own model
 
 You now know how to turn on/off an inference API by the template model. It's time to create your own APIs!
