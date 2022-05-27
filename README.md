@@ -43,7 +43,7 @@ Before the final deployment, we recommend you to turn on `DRYRUN` in `turnon_dep
 
 ## Step 6: Submit to [Aipaca leaderboard](https://aipaca.ai/events)
 
-The submission includes nickname, student number, inference URL, and github URL. Your result will be automatically scored with Compute Area Under the Receiver Operating Characteristic Curve (ROC AUC). If the score didn’t show up, you can contact us and we will look into your code.
+The submission includes nickname, student number, inference URL, and github URL. Your result will be automatically scored according to challenge requirements. If the score didn’t show up, you can contact us and we will look into your code.
 
 ## Tips
 
